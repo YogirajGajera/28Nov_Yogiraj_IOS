@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Question_4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YC2-w9-ps5">
+                                <rect key="frame" x="20" y="140" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgG-ns-mcf">
+                                <rect key="frame" x="120" y="201" width="135" height="30"/>
+                                <state key="normal" title="Hide Label"/>
+                                <connections>
+                                    <action selector="btn_hide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6v0-PV-jgX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVx-rC-Fpq">
+                                <rect key="frame" x="120" y="271" width="135" height="30"/>
+                                <state key="normal" title="Show Label"/>
+                                <connections>
+                                    <action selector="btn_show:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QbT-eP-zdb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YC2-w9-ps5" secondAttribute="trailing" constant="20" id="Cbo-ba-1Oj"/>
+                            <constraint firstItem="YC2-w9-ps5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="Gz7-ej-TuX"/>
+                            <constraint firstItem="FgG-ns-mcf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="LxY-K1-mhf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FgG-ns-mcf" secondAttribute="trailing" constant="120" id="TLX-2r-nIG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aVx-rC-Fpq" secondAttribute="trailing" constant="120" id="aJR-P6-td7"/>
+                            <constraint firstItem="aVx-rC-Fpq" firstAttribute="top" secondItem="FgG-ns-mcf" secondAttribute="bottom" constant="40" id="q6Z-Qw-hOt"/>
+                            <constraint firstItem="aVx-rC-Fpq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="s7v-UY-6q1"/>
+                            <constraint firstItem="YC2-w9-ps5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="t7E-U9-Tmc"/>
+                            <constraint firstItem="FgG-ns-mcf" firstAttribute="top" secondItem="YC2-w9-ps5" secondAttribute="bottom" constant="40" id="vk9-U0-lPq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="lbl_lbl" destination="YC2-w9-ps5" id="SHc-k7-VlD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

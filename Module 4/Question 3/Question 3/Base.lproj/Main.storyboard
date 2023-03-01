@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Question_3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TiF-u2-czE">
+                                <rect key="frame" x="20" y="155" width="335" height="26"/>
+                                <color key="backgroundColor" white="0.85267469620000003" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="aV9-0G-mDD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Value" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oCZ-rN-iPL">
+                                <rect key="frame" x="20" y="251" width="335" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rC7-j8-OtR">
+                                <rect key="frame" x="120" y="371" width="135" height="38"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <state key="normal" title="Click"/>
+                                <connections>
+                                    <action selector="btn_click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="As2-E8-E5C"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TiF-u2-czE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="135" id="3f3-wn-Tte"/>
+                            <constraint firstItem="oCZ-rN-iPL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="AOf-4g-kG6"/>
+                            <constraint firstItem="oCZ-rN-iPL" firstAttribute="top" secondItem="TiF-u2-czE" secondAttribute="bottom" constant="70" id="XWi-Zl-9a4"/>
+                            <constraint firstItem="rC7-j8-OtR" firstAttribute="top" secondItem="oCZ-rN-iPL" secondAttribute="bottom" constant="90" id="dis-r4-Rns"/>
+                            <constraint firstItem="rC7-j8-OtR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="fGW-bm-74g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oCZ-rN-iPL" secondAttribute="trailing" constant="20" id="hGa-VI-tLl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rC7-j8-OtR" secondAttribute="trailing" constant="120" id="hyc-te-pcG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TiF-u2-czE" secondAttribute="trailing" constant="20" id="omP-kq-KTY"/>
+                            <constraint firstItem="TiF-u2-czE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sdb-kB-MuL"/>
+                            <constraint firstItem="TiF-u2-czE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="uxe-8c-Z9Q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="lbl_nm" destination="TiF-u2-czE" id="cbn-5M-7GR"/>
+                        <outlet property="txt_value" destination="oCZ-rN-iPL" id="cXV-Tr-nkQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
