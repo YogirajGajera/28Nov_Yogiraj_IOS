@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "See All"; ObjectID = "0QZ-Cr-Qwc"; */
+"0QZ-Cr-Qwc.normalTitle" = "See All";
+
+/* Class = "UITabBarItem"; title = "Notification"; ObjectID = "0tR-Tl-rlp"; */
+"0tR-Tl-rlp.title" = "Notification";
+
+/* Class = "UITabBarItem"; title = "Cart"; ObjectID = "IT9-ly-L4f"; */
+"IT9-ly-L4f.title" = "Cart";
+
+/* Class = "UILabel"; text = "Brand Mall"; ObjectID = "O5T-TT-kqn"; */
+"O5T-TT-kqn.text" = "Brand Mall";
+
+/* Class = "UILabel"; text = "Categories"; ObjectID = "V4m-ci-BlC"; */
+"V4m-ci-BlC.text" = "Categories";
+
+/* Class = "UITabBarItem"; title = "Account"; ObjectID = "Vda-Mr-vqW"; */
+"Vda-Mr-vqW.title" = "Account";
+
+/* Class = "UISearchBar"; placeholder = "Search for products"; ObjectID = "XCo-u3-3Jo"; */
+"XCo-u3-3Jo.placeholder" = "Search for products";
+
+/* Class = "UISearchBar"; XCo-u3-3Jo.scopeButtonTitles[0] = "Title"; ObjectID = "XCo-u3-3Jo"; */
+"XCo-u3-3Jo.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; XCo-u3-3Jo.scopeButtonTitles[1] = "Title"; ObjectID = "XCo-u3-3Jo"; */
+"XCo-u3-3Jo.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UITabBarItem"; title = "Categories"; ObjectID = "Yyg-j8-UwG"; */
+"Yyg-j8-UwG.title" = "Categories";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "qGE-wa-ql1"; */
+"qGE-wa-ql1.title" = "Home";
+
+/* Class = "UILabel"; text = "All Categories"; ObjectID = "tKe-7u-XF8"; */
+"tKe-7u-XF8.text" = "All Categories";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zaj-hY-ofB"; */
+"zaj-hY-ofB.text" = "Label";
